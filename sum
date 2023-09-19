@@ -1,0 +1,14 @@
+class Solution{
+public:
+	// function to return sum of  1, 2, ... n
+	long long seriesSum(int n) {
+	   long i;
+	   i = n;
+	   return i * (i+1) * 0.5;
+	}
+};
+
+int main(){
+  Solution obj;
+  cout << obj.seriesSum(100);
+}
